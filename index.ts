@@ -1,4 +1,5 @@
 import containsDuplicate from './solutions/arrays/contains_duplicate'
+import { decode, encode } from './solutions/arrays/encode_decode'
 import groupAnagrams from './solutions/arrays/group_anagrams'
 import topKElements from './solutions/arrays/top_k_elements'
 import twoSum from './solutions/arrays/two_sum'
@@ -13,3 +14,7 @@ console.log(twoSum([5, 5], 10))
 console.log(groupAnagrams(['act', 'pots', 'tops', 'cat', 'stop', 'hat']))
 
 console.log(topKElements([1, 2, 2, 3, 3, 3], 2))
+
+console.log(decode(encode(['', 'test'])))
+console.log(decode(encode([''])))
+console.log(decode(encode([])))

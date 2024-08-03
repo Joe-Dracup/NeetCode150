@@ -1,0 +1,19 @@
+{
+  "name": "neetcode150",
+  "version": "1.0.0",
+  "description": "place to solve the neetcode150",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node build/index.js",
+    "lint": "npx eslint ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.8.0",
+    "typescript": "^5.5.4",
+    "typescript-eslint": "^8.0.0"
+  }
+}

@@ -8,6 +8,7 @@ import topKElements from './solutions/arrays/top_k_elements'
 import twoSum from './solutions/arrays/two_sum'
 import validAnagram from './solutions/arrays/valid_anagram'
 import isValidPalindrome from './solutions/two_pointer/is_palindrome'
+import twoIntegerSum from './solutions/two_pointer/two_integer_sum'
 
 const printArraySolution = false
 const printTwoPointerSolution = true
@@ -46,4 +47,6 @@ if (printArraySolution) {
 
 if (printTwoPointerSolution) {
   console.log(isValidPalindrome('Was it a car or a cat I saw?'))
+
+  console.log(twoIntegerSum([1, 2, 3, 4], 3))
 }

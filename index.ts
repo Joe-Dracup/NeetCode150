@@ -7,8 +7,10 @@ import productExceptSelf from './solutions/arrays/product_except_self'
 import topKElements from './solutions/arrays/top_k_elements'
 import twoSum from './solutions/arrays/two_sum'
 import validAnagram from './solutions/arrays/valid_anagram'
+import isValidPalindrome from './solutions/two_pointer/is_palindrome'
 
-const printArraySolution = true
+const printArraySolution = false
+const printTwoPointerSolution = true
 
 if (printArraySolution) {
   console.log(containsDuplicate([1, 2, 3, 5]))
@@ -40,4 +42,8 @@ if (printArraySolution) {
   console.log(isValidSoduko(board))
 
   console.log(longestConsecutiveSequence([2, 20, 4, 10, 3, 4, 5]))
+}
+
+if (printTwoPointerSolution) {
+  console.log(isValidPalindrome('Was it a car or a cat I saw?'))
 }
